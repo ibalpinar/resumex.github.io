@@ -23,7 +23,7 @@
             const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            document.getElementById("countdown").innerHTML = "<h1>" + days + " days " + hours + " hours " + minutes + " minutes</h1><h3>left until ResumeX goes live in beta version! </h3>";
+            document.getElementById("countdown").innerHTML = "<h1>" + days + " days " + hours + " hours " + minutes + " minutes</h1><h3>left until ResumeX goes live in beta version! </h3> </br> <span style='font-size:15px; font-weight:bold;'>@2024</span>";
 
             if (distance < 0) {
                clearInterval(countdown);
